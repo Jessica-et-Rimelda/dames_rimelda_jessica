@@ -9,6 +9,7 @@ import junit.framework.TestCase;
  *
  * @author Jessica Karelle Fanguem Tchikapa
  * @author Patricelie Rimelda Njoh Ngueng
+ * @author Aminata Diao
  */
 public class TestAffichageDamier extends TestCase {
 

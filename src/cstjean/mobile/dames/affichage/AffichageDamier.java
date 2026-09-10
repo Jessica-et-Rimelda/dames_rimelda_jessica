@@ -8,6 +8,7 @@ import cstjean.mobile.dames.Pion;
  *
  * @author Jessica Karelle Fanguem Tchikapa
  * @author Patricelie Rimelda Njoh Ngueng
+ * @author Aminata Diao
  */
 public class AffichageDamier {
 
