@@ -5,7 +5,7 @@ import junit.framework.Test;
 import junit.framework.TestSuite;
 
 /**
- * Regroupe tous les tests unitaires du projet.
+ * Regroupe tous les tests du projet.
  *
  * @author Jessica Karelle Fanguem Tchikapa
  * @author Patricelie Rimelda Njoh Ngueng

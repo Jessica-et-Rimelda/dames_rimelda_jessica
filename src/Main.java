@@ -3,7 +3,7 @@ import cstjean.mobile.dames.Pion;
 import cstjean.mobile.dames.affichage.AffichageDamier;
 
 /**
- * Point d'entrée permettant de tester la création d'un damier
+ * Programme permettant de tester la création d'un damier
  * et l'ajout de quelques pions.
  *
  * @author Jessica Karelle Fanguem Tchikapa

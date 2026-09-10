@@ -3,7 +3,7 @@ package cstjean.mobile.dames;
 import junit.framework.TestCase;
 
 /**
- * Contient les tests unitaires de la classe Pion.
+ * Contient les tests de la classe Pion.
  *
  * @author Jessica Karelle Fanguem Tchikapa
  * @author Patricelie Rimelda Njoh Ngueng

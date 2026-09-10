@@ -5,7 +5,7 @@ import cstjean.mobile.dames.Pion;
 import junit.framework.TestCase;
 
 /**
- * Contient les tests unitaires de la classe AffichageDamier.
+ * Contient les tests de la classe AffichageDamier.
  *
  * @author Jessica Karelle Fanguem Tchikapa
  * @author Patricelie Rimelda Njoh Ngueng

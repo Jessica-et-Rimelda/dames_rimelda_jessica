@@ -3,8 +3,7 @@ package cstjean.mobile.dames;
 import java.util.LinkedList;
 
 /**
- * Représente un damier du jeu de dames.
- * Le damier possède 50 positions pouvant contenir des pions.
+ * Représente un damier.
  *
  * @author Jessica Karelle Fanguem Tchikapa
  * @author Patricelie Rimelda Njoh Ngueng
@@ -18,11 +17,18 @@ public class Damier {
     private final LinkedList<Pion> listePions;
 
     /**
+     * Constructeur.
      * Crée un damier contenant 50 positions vides.
      */
     public Damier() {
         listePions = new LinkedList<>();
+        initialiser();
+    }
 
+    /**
+     * Initialise 50 positions vides.
+     */
+    public void initialiser() {
         for (int i = 0; i < 50; i++) {
             listePions.add(null);
         }
@@ -32,7 +38,7 @@ public class Damier {
      * Ajoute un pion à une position donnée du damier.
      *
      * @param position la position où placer le pion
-     * @param pion le pion à ajouter
+     * @param pion     le pion à ajouter
      */
     public void ajouterPion(int position, Pion pion) {
         listePions.set(position - 1, pion);

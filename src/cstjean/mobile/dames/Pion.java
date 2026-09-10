@@ -1,8 +1,7 @@
 package cstjean.mobile.dames;
 
 /**
- * Représente un pion du jeu de dames.
- * Un pion possède une couleur.
+ * Représente un pion.
  *
  * @author Jessica Karelle Fanguem Tchikapa
  * @author Patricelie Rimelda Njoh Ngueng
@@ -16,6 +15,7 @@ public class Pion {
     private final String couleur;
 
     /**
+     * Constructeur.
      * Crée un pion avec la couleur spécifiée.
      *
      * @param couleur la couleur du pion
@@ -25,6 +25,7 @@ public class Pion {
     }
 
     /**
+     * Constructeur.
      * Crée un pion blanc par défaut.
      */
     public Pion() {
